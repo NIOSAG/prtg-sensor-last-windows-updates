@@ -2,7 +2,7 @@
  Created by [NIOS AG](https://nios.ch)
  
  ## Description
-This Script checks when the last Windows Updates are installed. It then outputs in a PRTG XML structure with predefined error and warning limits the Days since the last Updates and the latest Update installed.
+This scripts shows the amount of days since the last Windows Updates run and displays the last installed patch. It then outputs this informations in a PRTG XML structure with predefined error and warning limits.
 
 ## Installation
 ### Sensor creation
