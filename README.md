@@ -33,5 +33,5 @@ This Script checks when the last Windows Updates are installed. It then outputs 
 If the sensors report errors please follow this steps to identity the cause:
 
 - Make sure that the sensor stores the EXE result in the file system, so that you can access the error message in the folder C:\ProgramData\Paessler\PRTG Network Monitor\Logs (Sensors).
-- Let the PRTG Sensor recheck the Last Windows Updates.
+- Let the PRTG Sensor recheck the latest Windows Updates.
 - Check the LOG files.
