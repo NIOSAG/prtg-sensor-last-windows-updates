@@ -24,10 +24,10 @@ This Script checks when the last Windows Updates are installed. It then outputs 
     -host %host -username %windowsuser -password "%windowspassword"
 
 ### Screenshot of sensor creation
-![VMware UAG Sensor Configuration](https://github.com/NIOSAG/prtg-sensor-vmware-uag/blob/main/prtg-sensor-vmware-uag-config.png?raw=true "Sensor Configuration")
+![Windows Update Sensor Configuration](https://github.com/NIOSAG/prtg-sensor-last-windows-updates/blob/main/prtg-sensor-last-windows-updates.PNG?raw=true "Sensor Configuration")
 
 ### Screenshot of sensor overview
-![VMware UAG Sensor Overview](https://github.com/NIOSAG/prtg-sensor-vmware-uag/blob/main/prtg-sensor-vmware-uag-details.png?raw=true "Sensor Details")
+![Windows Update Sensor Overview](https://github.com/NIOSAG/prtg-sensor-last-windows-updates/blob/main/prtg-sensor-last-windows-updates-overview.PNG?raw=true "Sensor Details")
 
 ## Troubleshooting
 If the sensors report errors please follow this steps to identity the cause:
