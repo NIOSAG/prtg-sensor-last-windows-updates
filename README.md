@@ -1,4 +1,4 @@
-# Windows last Hotfix for PRTG
+# Latest Windows Updates for PRTG
  Created by [NIOS AG](https://nios.ch)
  
  ## Description
@@ -9,13 +9,13 @@ This Script checks when the last Windows Updates are installed. It then outputs 
  1. Copy the script file into the PRTG Custom EXEXML sensor directory:
     "C:\Program Files (x86)\PRTG Network Monitor\Custom Sensors\EXEXML"
 
-	- prtg-sensor-windows-last-hotfix.ps1 (PowerShell Sensor Script)
+	- prtg-sensor-last-windows-updates.ps1 (PowerShell Sensor Script)
 
  2. Select the parent device on which you want to check the Status/Statistics and choose Add sensor. Select the sensor type EXE/Script Advanced in the group Custom sensors. Adjust the following settings:
 
 	- **Name:** Enter a name that allows for easy identification of the sensor.
 	- **Tags:** Add custom Tag like "windowsppdates"
-	- **EXE/Script:** Select the corresponding script "prtg-sensor-windows-last-hotfix.ps1"
+	- **EXE/Script:** Select the corresponding script "prtg-sensor-last-windows-updates.ps1"
 	- **Parameters:** Set the parameters as required. See below for further Information and an example.
 	- **Security Context:** Assert that the script is run under a useraccount which can access the server
 	- **Result Handling:** For easier troubleshooting, it is advisable to store the result of the sensor in the logs directory, at a minimum if errors occure.
